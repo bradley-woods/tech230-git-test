@@ -2,17 +2,17 @@
 - Testing GitHub and Distributed VC
 - Cloning Git repo and using push/pull workflow
 
-### Cloning GitHub Repo to Local:
+### Cloning Remote Repo to Local Workspace:
 
-```git
+```commandline
 git clone <github-repo-url>
 
 cd <repo-folder>
 ```
 
-### Pushing Changes to GitHub
+### Updating Remote Repo from Local Workspace
 
-```git
+```commandline
 git add .
 
 git commit -m "Change comment"
@@ -20,8 +20,14 @@ git commit -m "Change comment"
 git push -u origin <branch-name>
 ```
 
-### Pulling Changes from GitHub
+### Updating Local Workspace from Remote Repo
 
-```git
+```commandline
+git fetch
+
+git merge
+```
+or
+```commandline
 git pull
 ```
