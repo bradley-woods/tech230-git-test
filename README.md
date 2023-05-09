@@ -3,3 +3,27 @@
 - Cloning Git repo and using push/pull workflow
 
 This is a local change I am going to commit
+
+### Cloning GitHub Repo to Local:
+
+```git
+git clone <github-repo-url>
+
+cd <repo-folder>
+```
+
+### Pushing Changes to GitHub
+
+```git
+git add .
+
+git commit -m "Change comment"
+
+git push -u origin <branch-name>
+```
+
+### Pulling Changes from GitHub
+
+```git
+git pull
+```
