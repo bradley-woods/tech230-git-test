@@ -1,2 +1,2 @@
-# tech230_git_test
+# Tech230 - Git and GitHub Test
 Testing GitHub and Distributed VC
